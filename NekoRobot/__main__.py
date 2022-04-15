@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_animation(
-            NEKO_IMG, caption= "<b>Yes, Darling I'm alive!\nHaven't sleep since</b>: <code>{}</code>".format(
+            NEKO_IMG, caption="<b>Yes, Darling I'm alive!\nHaven't sleep since</b>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
